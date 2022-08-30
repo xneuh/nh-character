@@ -12,3 +12,18 @@ Requirments:
     local skillLevel = res
   end, 'drugs') -- Replace drugs with your skilltype
 ````
+
+SQL Code
+
+````
+
+CREATE TABLE user_skills(
+  identifier varchar(50) DEFAULT '' NOT NULL,
+  drugslvl int(11) DEFAULT 1 NOT NULL,
+  drugsexp int(11) DEFAULT 0 NOT NULL,
+  handlarzlvl int(11) DEFAULT 1 NOT NULL,
+  handlarzexp int(11) DEFAULT 0 NOT NULL,
+  napadylvl int(11) DEFAULT 1 NOT NULL,
+  napadyexp int(11) DEFAULT 0 NOT NULL
+)
+````
