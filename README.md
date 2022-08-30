@@ -1,2 +1,6 @@
-# nh_kp
-Character ability system [ESX]
+Character Card with abillity system
+
+Requirments:
+<a href="google.com">
+  - es_extended
+  </a>
