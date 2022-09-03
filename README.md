@@ -13,6 +13,11 @@ Requirments:
   end, 'drugs') -- Replace drugs with your skilltype
 ````
 
+EXP Giving Trigger
+````
+TriggerServerEvent("nh_kp:giveEXP", skillname, chance, expCount")
+````
+
 SQL Code
 
 ````
