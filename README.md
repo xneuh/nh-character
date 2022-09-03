@@ -15,7 +15,7 @@ Requirments:
 
 EXP Giving Trigger
 ````
-TriggerServerEvent("nh_kp:giveEXP", skillname, chance, expCount")
+TriggerServerEvent("nh_kp:giveEXP", skillname, chance, expCount)
 ````
 
 SQL Code
